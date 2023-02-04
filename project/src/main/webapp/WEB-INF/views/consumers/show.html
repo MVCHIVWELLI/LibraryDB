@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Читатели библиотеки</title>
+</head>
+<body>
+
+<div th:each="consumer : ${consumers}">
+    <a th:href="@{/consumers/{consumer_id}(consumer_id=${consumer.getConsumer_id()})}"
+       th:text="${consumer.getConsumer_name() + ' :' + consumer.getConsumer_bd() }">consumer</a>
+</div>
+
+<br>
+<hr/>
+
+<a href="consumers/new">Добавить человека</a>
+<br>
+<hr/>
+<a href="/books">Список книг</a>
+</body>
+</html>
