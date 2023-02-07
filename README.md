@@ -19,6 +19,10 @@
 * Thymeleaf
 * PostgreSQL
 
+---
+
+<image src="https://github.com/MVCHIVWELLI/LibraryDB/blob/main/Images/lib1.jpg" alt="Описание картинки">
+<image src="https://github.com/MVCHIVWELLI/LibraryDB/blob/main/Images/library1.jpg" alt="Описание картинки">
 
 
 
